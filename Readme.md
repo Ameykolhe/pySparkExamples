@@ -1,7 +1,7 @@
 # Spark Installation Steps
 
 
-### Java
+## Java
 
 - Download and install - Java 8 - [ Link ](https://www.oracle.com/in/java/technologies/javase/javase8u211-later-archive-downloads.html)
 - Set Environment Variables 
@@ -23,9 +23,9 @@
   Java HotSpot(TM) 64-Bit Server VM (build 25.301-b09, mixed mode)  
   ```
 
-### Python
+## Python
 
-- Download and install - Python 3.6+ - [ Link  - Python 3.8.10 ](https://www.python.org/downloads/release/python-3810/)
+- Download and install - Python 3.6+ - [ Link  - Python 3.8.10 ](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe)
 - Ensure to check *Add Python to Path* option while installation
 - verify if python is installed correctly - `python`
 - Output - should start python console
@@ -36,7 +36,7 @@
   ```
 
 
-### Spark Installation
+## Spark Installation
 
 - Download Pre-Built Apache Spark with Hadoop [ Link ](https://dlcdn.apache.org/spark/spark-3.1.2/spark-3.1.2-bin-hadoop3.2.tgz)
 - Extract the downloaded .tgz file to `C:\Binaries\spark-3.1.2-bin-hadoop3.2` - create folder if it doesn't exist
@@ -48,10 +48,10 @@
   | PATH          | %SPARK_HOME%\bin                      |
   | _JAVA_OPTIONS | -Xmx512M -Xms512M                     |
 
-### Windows specific steps
+## Windows specific steps
 
-- Download winutils [ Link ](https://github.com/cdarlint/winutils/archive/refs/heads/master.zip)
-- Copy files from hadoop-3.2.0 to `C:\Binaries\hadoop-3.2.0\bin` - create folder if it doesn't exist
+- Download winutils - [ Link ](https://github.com/cdarlint/winutils/archive/refs/heads/master.zip)
+- Copy files from directory hadoop-3.2.0 to `C:\Binaries\hadoop-3.2.0\bin` - create folder if it doesn't exist
 
   | Variable Name | Value                    |
   |---------------|--------------------------|
@@ -62,7 +62,7 @@
   - Execute the following command in Admin Command Prompt <br> `winutils.exe chmod -R 777 C:\tmp\hive`
   - Check the permissions - `winutils.exe ls -F D:\tmp\hive`
 
-### PySpark Setup
+## PySpark Setup
 
 - For installing pyspark there are two ways
   1. using pip - `pip install pyspark==3.1.2`
@@ -102,7 +102,7 @@
   >>> 
   ```
   
-### Jupyter Notebook 
+## Jupyter Notebook 
 
 - Install jupyter notebook using pip - `pip install jupyter`
 - Launch jupyter notebook - `jupyter notebook`
@@ -122,7 +122,7 @@
   nums.map(lambda x: x*x).collect()
   ```
 
-### Scala Setup ( Optional )
+## Scala Setup ( Optional )
 
 - Scala is required to use spark-shell
 - Download and install Scala - [ Link ](https://downloads.lightbend.com/scala/2.13.7/scala-2.13.7.msi)
@@ -161,3 +161,4 @@
   
   scala> 
   ```
+  
