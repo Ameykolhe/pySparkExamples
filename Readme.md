@@ -1,5 +1,14 @@
 # Spark Installation Steps
 
+## Table of Content
+
+- [ Java ](#java)
+- [ Python ](#python)
+- [ Spark Installation ](#spark-installation)
+- [ Windows specific steps ](#windows-specific-steps)
+- [ PySpark Setup  ](#pyspark-setup)
+- [ Jupyter Notebook ](#jupyter-notebook)
+- [ Scala Setup ](#scala-setup)
 
 ## Java
 
@@ -122,9 +131,9 @@
   nums.map(lambda x: x*x).collect()
   ```
 
-## Scala Setup ( Optional )
+## Scala Setup
 
-- Scala is required to use spark-shell
+- Scala is optional - its is required only for spark-shell
 - Download and install Scala - [ Link ](https://downloads.lightbend.com/scala/2.13.7/scala-2.13.7.msi)
 
   | Variable Name | Value             |
