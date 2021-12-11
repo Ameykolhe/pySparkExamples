@@ -2,7 +2,8 @@ from datetime import date
 
 from pyspark.sql import Row
 
-from pysparksamples import spark
+from pysparkexamples import spark
+from pysparkexamples.read_write_data.csv import read_csv
 
 
 def main():
@@ -15,4 +16,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    read_csv()
