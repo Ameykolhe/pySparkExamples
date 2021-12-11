@@ -21,9 +21,9 @@
   | PATH          | %JAVA_HOME%\bin               |
 
   Note - <br>
-  avoid using spaces in Environment Variables to avoid further issues <br> `
-  Progra~1` is short for *Program Files* whereas `Progra~2` is short for *Program Files (x86)*
-- Enter command to check java installation - `java --version`
+  avoid using spaces in Environment Variables to avoid further issues <br> 
+  `Progra~1` is short for *Program Files* whereas `Progra~2` is short for *Program Files (x86)*
+- Enter command to check java installation - `java -version`
 - Output
 
   ```

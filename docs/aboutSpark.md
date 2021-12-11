@@ -17,7 +17,7 @@ Perform Exploratory Data Analysis (EDA) on petabyte-scale data without having to
 4. **Machine learning** <br>
 Train machine learning algorithms on a laptop and use the same code to scale to fault-tolerant clusters of thousands of machines.
 
-## About PySPark
+## About PySpark
 
 - PySpark is an interface for Apache Spark in Python. 
 - It not only allows you to write Spark applications using Python APIs, but also provides the PySpark shell for interactively analyzing your data in a distributed environment. 
