@@ -4,6 +4,7 @@ from pyspark.sql import Row
 
 from pysparkexamples import spark, print_data_frame, PROJECT_ROOT
 from pysparkexamples.read_write_data.csv import read_csv, write_csv
+from pysparkexamples.read_write_data.mysql import read_table, write_table
 
 
 def test():
@@ -16,10 +17,16 @@ def test():
 
 
 def main():
+    # Read table from MySQL
     df = read_csv()
     print_data_frame(df)
-    output_dir = f"{PROJECT_ROOT}/output/diabetes"
-    write_csv(df, output_dir, is_single_file_enabled=False)
+
+    # Write to MySQL Table
+    write_table(df)
+
+    # Write to CSV
+    # output_dir = f"{PROJECT_ROOT}/output/diabetes"
+    # write_csv(df, output_dir, is_single_file_enabled=False)
 
 
 if __name__ == "__main__":
