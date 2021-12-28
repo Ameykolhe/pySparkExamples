@@ -17,4 +17,15 @@ Repository to store pyspark code
    MONGOEXPRESS_LOGIN=<MongoExpress Username>
    MONGOEXPRESS_PASSWORD=<MongoExpress Password>
    ```
-2. Download [MySQL Java connector](https://search.maven.org/artifact/mysql/mysql-connector-java/8.0.27/jar) and paste it in project root directory
+2. Docker data directories setup <br>
+   1. Create the following Directory Structure
+      ```
+      data
+        ├───elastic_search
+        │   ├───1
+        │   ├───2
+        │   └───3
+        ├───mongodb
+        └───mysql
+      ```
+3. Download [MySQL Java connector](https://search.maven.org/artifact/mysql/mysql-connector-java/8.0.27/jar) and paste it in project root directory

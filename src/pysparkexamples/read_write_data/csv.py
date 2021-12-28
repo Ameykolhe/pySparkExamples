@@ -1,14 +1,14 @@
 import sys
 
-from pysparkexamples import spark, PROJECT_ROOT
-
 from pyspark.sql import DataFrame
+
+from pysparkexamples import spark, PROJECT_ROOT
 
 CSV_FILE = f"{PROJECT_ROOT}/data/diabetes.csv"
 URI_SCHEME = "file://"
 
 
-def read_csv(uri_scheme=URI_SCHEME, file_name=CSV_FILE) -> DataFrame:
+def read_csv(uri_scheme: str = URI_SCHEME, file_name: str = CSV_FILE) -> DataFrame:
     """
     Function used to read csv file
     it will read data/diabetes.csv by default

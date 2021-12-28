@@ -15,7 +15,7 @@ def read_table(jdbc_url: str = JDBC_URL, table_name: str = TABLE_NAME, propertie
 
     :param jdbc_url: a JDBC URL of the form "jdbc:subprotocol:subname"
     :param table_name: the name of the table
-    :param properties: user -> DB username, password -> DB password
+    :param properties: user -> DB username, password -> DB password, driver -> MySQL Driver Class
     :return: DataFrame object
     """
     print(f"Reading Table File: {table_name}")
@@ -35,7 +35,7 @@ def write_table(df: DataFrame, jdbc_url: str = JDBC_URL, table_name: str = TABLE
     :param df: Dataframe object
     :param jdbc_url: a JDBC URL of the form "jdbc:subprotocol:subname"
     :param table_name: the name of the table
-    :param properties: user -> DB username, password -> DB password
+    :param properties: user -> DB username, password -> DB password, driver -> MySQL Driver Class
     :return: None
     """
     print(f"Writing DataFrame to table - {table_name}")
