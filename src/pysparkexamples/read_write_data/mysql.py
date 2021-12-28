@@ -18,7 +18,6 @@ def read_table(jdbc_url: str = JDBC_URL, table_name: str = TABLE_NAME, propertie
     :param properties: user -> DB username, password -> DB password
     :return: DataFrame object
     """
-    # NOTE - for reading file from local system use UNIX like path string
     print(f"Reading Table File: {table_name}")
     if properties is None:
         properties = {
