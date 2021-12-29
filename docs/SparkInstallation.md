@@ -53,15 +53,16 @@ Under Construction
 <details open>
 <summary>Windows</summary>
 
-- Download and install - Python 3.6+ - [ Link  - Python 3.8.10 ](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe)
-- Ensure to check *Add Python to Path* option while installation
-- verify if python is installed correctly - `python`
-- Output - should start python console
-  ```
-  Python 3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)] on win32
-  Type "help", "copyright", "credits" or "license" for more information.
-  >>> quit()
-  ```
+  - Download and install - Python 3.6+ - [ Link  - Python 3.8.10 ](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe)
+  - Ensure to check *Add Python to Path* option while installation
+  - verify if python is installed correctly - `python`
+  - Output - should start python console
+
+    ```
+    Python 3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)] on win32
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> quit()
+    ```
 </details>
 
 <details>
