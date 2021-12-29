@@ -12,9 +12,6 @@
 
 ## Java
 
-<details open>
-<summary>Windows</summary>
-
 - Download and install - Java 8 - [ Link ](https://www.oracle.com/in/java/technologies/javase/javase8u211-later-archive-downloads.html)
 - Set Environment Variables 
 
@@ -34,48 +31,19 @@
   Java(TM) SE Runtime Environment (build 1.8.0_301-b09)
   Java HotSpot(TM) 64-Bit Server VM (build 25.301-b09, mixed mode)  
   ```
-</details>
-
-<details>
-<summary>Linux</summary>
-    
-Under Construction
-</details>
-
-<details>
-<summary>MacOS</summary>
-
-Under Construction
-</details>
+  
 
 ## Python
 
-<details open>
-<summary>Windows</summary>
-
-  - Download and install - Python 3.6+ - [ Link  - Python 3.8.10 ](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe)
-  - Ensure to check *Add Python to Path* option while installation
-  - verify if python is installed correctly - `python`
-  - Output - should start python console
-
-    ```
-    Python 3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)] on win32
-    Type "help", "copyright", "credits" or "license" for more information.
-    >>> quit()
-    ```
-</details>
-
-<details>
-<summary>Linux</summary>
-    
-Under Construction
-</details>
-
-<details>
-<summary>MacOS</summary>
-
-Under Construction
-</details>
+- Download and install - Python 3.6+ - [ Link  - Python 3.8.10 ](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe)
+- Ensure to check *Add Python to Path* option while installation
+- verify if python is installed correctly - `python`
+- Output - should start python console
+  ```
+  Python 3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)] on win32
+  Type "help", "copyright", "credits" or "license" for more information.
+  >>> quit()
+  ```
 
 ## Spark Installation
 
