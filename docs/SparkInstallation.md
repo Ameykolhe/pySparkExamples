@@ -12,6 +12,9 @@
 
 ## Java
 
+<details open>
+<summary>Windows</summary>
+
 - Download and install - Java 8 - [ Link ](https://www.oracle.com/in/java/technologies/javase/javase8u211-later-archive-downloads.html)
 - Set Environment Variables 
 
@@ -31,8 +34,24 @@
   Java(TM) SE Runtime Environment (build 1.8.0_301-b09)
   Java HotSpot(TM) 64-Bit Server VM (build 25.301-b09, mixed mode)  
   ```
+</details>
+
+<details>
+<summary>Linux</summary>
+    
+Under Construction
+</details>
+
+<details>
+<summary>MacOS</summary>
+
+Under Construction
+</details>
 
 ## Python
+
+<details open>
+<summary>Windows</summary>
 
 - Download and install - Python 3.6+ - [ Link  - Python 3.8.10 ](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe)
 - Ensure to check *Add Python to Path* option while installation
@@ -43,7 +62,19 @@
   Type "help", "copyright", "credits" or "license" for more information.
   >>> quit()
   ```
+</details>
 
+<details>
+<summary>Linux</summary>
+    
+Under Construction
+</details>
+
+<details>
+<summary>MacOS</summary>
+
+Under Construction
+</details>
 
 ## Spark Installation
 
@@ -51,16 +82,17 @@
 - Extract the downloaded .tgz file to `C:\Binaries\spark-3.1.2-bin-hadoop3.2` - create folder if it doesn't exist
 - Set Environment Variables
 
-  | Variable Name | Value                                 |
-  |---------------|---------------------------------------|
-  | SPARK_HOME    | C:\Binaries\spark-3.1.2-bin-hadoop3.2 |
-  | PATH          | %SPARK_HOME%\bin                      |
-  | _JAVA_OPTIONS | -Xmx512M -Xms512M                     |
+    | Variable Name | Value                                 |
+    |---------------|---------------------------------------|
+    | SPARK_HOME    | C:\Binaries\spark-3.1.2-bin-hadoop3.2 |
+    | PATH          | %SPARK_HOME%\bin                      |
+    | _JAVA_OPTIONS | -Xmx512M -Xms512M                     |
 
 ## Windows specific steps
 
 - Download winutils - [ Link ](https://github.com/cdarlint/winutils/archive/refs/heads/master.zip)
 - Copy files from directory hadoop-3.2.0 to `C:\Binaries\hadoop-3.2.0\bin` - create folder if it doesn't exist
+- Set Environment Variables
 
   | Variable Name | Value                    |
   |---------------|--------------------------|

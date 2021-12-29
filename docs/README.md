@@ -4,7 +4,7 @@
 - [About Spark](aboutSpark.md)
 - [Spark Installation](SparkInstallation.md)
 - Reading and Writing Data using PySpark
-  - [PySark init](https://github.com/Ameykolhe/pySparkExamples/blob/master/src/pysparkexamples/__init__.py)
+  - [PySpark init](https://github.com/Ameykolhe/pySparkExamples/blob/master/src/pysparkexamples/__init__.py)
   - [csv files](https://github.com/Ameykolhe/pySparkExamples/blob/master/src/pysparkexamples/read_write_data/csv.py)
   - [MySQL datasets](https://github.com/Ameykolhe/pySparkExamples/blob/master/src/pysparkexamples/read_write_data/mysql.py)
 - Case Study - Data Analytics with PySpark
