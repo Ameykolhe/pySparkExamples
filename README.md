@@ -1,4 +1,7 @@
 # PySpark Examples
+
+[![pages-build-deployment](https://github.com/Ameykolhe/pySparkExamples/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Ameykolhe/pySparkExamples/actions/workflows/pages/pages-build-deployment)
+
 Home Page - [Link](http://ameyk.me/pySparkExamples/) <br>
 Repository to store pyspark code
 
