@@ -5,7 +5,8 @@ from pyspark.sql import DataFrame
 from pysparkexamples import spark
 
 JDBC_URL = "jdbc:mysql://localhost:3306"
-TABLE_NAME = f"{os.environ.get('MYSQL_DB')}.diabetes"
+DATASET_NAME = os.environ.get('MYSQL_DB')
+TABLE_NAME = "diabetes"
 
 
 def read_table(jdbc_url: str = JDBC_URL, table_name: str = TABLE_NAME, properties: dict = None) -> DataFrame:
@@ -28,12 +29,13 @@ def read_table(jdbc_url: str = JDBC_URL, table_name: str = TABLE_NAME, propertie
     return spark.read.jdbc(jdbc_url, table_name, properties=properties)
 
 
-def write_table(df: DataFrame, jdbc_url: str = JDBC_URL, table_name: str = TABLE_NAME, properties: dict = None) -> None:
+def write_table(df: DataFrame, jdbc_url: str = JDBC_URL, dataset_name: str = DATASET_NAME, table_name: str = TABLE_NAME, properties: dict = None) -> None:
     """
     Function used to write a DataFrame to csv file
 
     :param df: Dataframe object
     :param jdbc_url: a JDBC URL of the form "jdbc:subprotocol:subname"
+    :param dataset_name: the name of mysql dataset
     :param table_name: the name of the table
     :param properties: user -> DB username, password -> DB password, driver -> MySQL Driver Class
     :return: None
@@ -45,4 +47,5 @@ def write_table(df: DataFrame, jdbc_url: str = JDBC_URL, table_name: str = TABLE
             "password": os.environ.get("MYSQL_PASSWORD"),
             "driver": "com.mysql.cj.jdbc.Driver"
         }
+    table_name = f"{dataset_name}.{table_name}"
     df.write.jdbc(jdbc_url, table_name, properties=properties)
