@@ -1,9 +1,9 @@
-{"userId":"cpoul","jobTitle":"Developer","firstName":"Christopher","lastName":"Poulin","employeeCode":"E1","region":"CA","phoneNumber":123456,"emailAddress":"cpoul@amey.me","salary":100000}
-{"userId":"drome","jobTitle":"Developer","firstName":"David","lastName":"Rome","employeeCode":"E2","region":"CA","phoneNumber":1111111,"emailAddress":"drome@amey.me","salary":100000}
-{"userId":"tjohn","jobTitle":"Developer","firstName":"Tin","lastName":"Johnson","employeeCode":"E3","region":"CA","phoneNumber":2222222,"emailAddress":"tjohn@amey.me","salary":100000}
-{"userId":"akolh","jobTitle":"Developer","firstName":"Amey","lastName":"Kolhe","employeeCode":"E1","region":"IN","phoneNumber":123456,"emailAddress":"akolh@amey.me","salary":100000}
-{"userId":"hdwye","jobTitle":"Senior Manager","firstName":"Helen","lastName":"Dwyer","employeeCode":"E3","region":"CA","phoneNumber":2222222,"emailAddress":"hdwye@amey.me","salary":150000}
-{"userId":"ajha","jobTitle":"Senior Manager","firstName":"Amit","lastName":"Jha","employeeCode":"E3","region":"CA","phoneNumber":2222222,"emailAddress":"ajha@amey.me","salary":150000}
-{"userId":"kkaga","jobTitle":"Vice President","firstName":"Kristina","lastName":"Kaganer","employeeCode":"E3","region":"CA","phoneNumber":2222222,"emailAddress":"kkaga@amey.me","salary":200000}
-{"userId":"ctau","jobTitle":"Business Analyst","firstName":"Chris","lastName":"Tau","employeeCode":"E3","region":"CA","phoneNumber":2222222,"emailAddress":"ctau@amey.me","salary":175000}
-{"userId":"tkhou","jobTitle":"Data Science Lead","firstName":"Theo","lastName":"Khoury","employeeCode":"E3","region":"CA","phoneNumber":2222222,"emailAddress":"tkhou@amey.me","salary":175000}
+{"userId":"cpoul","jobTitle":"Developer","firstName":"Christopher","lastName":"Poulin","employeeCode":"E1","region":"US","phoneNumber":123456,"emailAddress":"cpoul@amey.me","salary":100000}
+{"userId":"drome","jobTitle":"Developer","firstName":"David","lastName":"Rome","employeeCode":"E1","region":"US","phoneNumber":1111111,"emailAddress":"drome@amey.me","salary":110000}
+{"userId":"tjohn","jobTitle":"Developer","firstName":"Tin","lastName":"Johnson","employeeCode":"E3","region":"US","phoneNumber":2222222,"emailAddress":"tjohn@amey.me","salary":110000}
+{"userId":"akolh","jobTitle":"Developer","firstName":"Amey","lastName":"Kolhe","employeeCode":"E1","region":"IN","phoneNumber":123456,"emailAddress":"akolh@amey.me","salary":125000}
+{"userId":"hdwye","jobTitle":"Senior Manager","firstName":"Helen","lastName":"Dwyer","employeeCode":"E5","region":"US","phoneNumber":2222222,"emailAddress":"hdwye@amey.me","salary":150000}
+{"userId":"ajha","jobTitle":"Senior Manager","firstName":"Amit","lastName":"Jha","employeeCode":"E6","region":"IN","phoneNumber":2222222,"emailAddress":"ajha@amey.me","salary":160000}
+{"userId":"kkaga","jobTitle":"Vice President","firstName":"Kristina","lastName":"Kaganer","employeeCode":"E7","region":"US","phoneNumber":2222222,"emailAddress":"kkaga@amey.me","salary":200000}
+{"userId":"ctau","jobTitle":"Business Analyst","firstName":"Chris","lastName":"Tau","employeeCode":"E8","region":"AE","phoneNumber":2222222,"emailAddress":"ctau@amey.me","salary":175000}
+{"userId":"tkhou","jobTitle":"Data Science Lead","firstName":"Theo","lastName":"Khoury","employeeCode":"E9","region":"AE","phoneNumber":2222222,"emailAddress":"tkhou@amey.me","salary":175000}

@@ -35,4 +35,4 @@ def write_csv(df: DataFrame, output_dir: str, is_single_file_enabled: bool = Tru
     print(f"Writing DataFrame to CSV file {output_dir}")
     if is_single_file_enabled:
         df = df.repartition(1)
-    df.write.csv(output_dir, header=True, mode="overwrite", )
+    df.write.csv(output_dir, header=True, mode="overwrite" )
