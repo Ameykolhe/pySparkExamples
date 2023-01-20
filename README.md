@@ -2,7 +2,7 @@
 
 [![pages-build-deployment](https://github.com/Ameykolhe/pySparkExamples/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Ameykolhe/pySparkExamples/actions/workflows/pages/pages-build-deployment)
 
-Tutorial Link - [ameyk.me](http://ameyk.me/pySparkExamples/)  
+Tutorial Link - [ameyk.me](http://ameyk.com/pySparkExamples/)  
 Repository to store pyspark code
 
 ### Project Setup
